@@ -1,0 +1,18 @@
+version: '2'
+
+services:
+  ganache:
+    image: blockchain
+    command: bash
+    stdin_open: true
+    tty: true
+    ports:
+      - "8545:8545"
+  truffle:
+    image: blockchain
+    command: bash
+    stdin_open: true
+    tty: true
+    ports:
+      - "8080:8080"
+    
