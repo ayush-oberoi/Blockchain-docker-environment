@@ -20,7 +20,7 @@ The services are assigned - ganache and truffle in the docker-compose.yml file.
 
 ## Running the environment
 
-- In the repo folder, Run `sudo docker-compose -f docker-compose.yml up -d` . This will run the services (containers) in the background
+- In the repo folder, Run `sudo docker-compose -f docker-compose.yaml up -d` . This will run the services (containers) in the background
 - it will create two services - truffle and ganache.
 - Run - `sudo docker ps` to check the container name.
 - Open two terminals use `sudo docker attach <ganache_container_name>` on first terminal and `sudo docker attach <truffle_container_name>` on second terminal.
