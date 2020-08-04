@@ -15,7 +15,7 @@ The services are assigned - ganache and truffle in the docker-compose.yml file.
 - clone the repository - `git clone https://github.com/ayush-oberoi/blockchain-docker-environment`
 - Pull the blockchain image - `docker pull docker.pkg.github.com/ayush-oberoi/Blockchain-docker-environment/blockchain:latest`
 - Change the tag name for the image to `blockchain` - 
-  Run `sudo docker tag docker.pkg.github.com/ayush-oberoi/blockchain-docker-environment/blockchain blockchain
+  Run `sudo docker tag docker.pkg.github.com/ayush-oberoi/blockchain-docker-environment/blockchain blockchain`
 - Run `cd Blockchain-docker-environment`
 
 ## Running the environment
