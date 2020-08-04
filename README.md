@@ -7,6 +7,7 @@ The services are assigned - ganache and truffle in the docker-compose.yml file.
 ## Prerequisites
 
 - Make sure you have installed docker CE and docker-compose on your local machine
+- Dapp browser (Metamask installed)
 - Remove any proxy on 8080 port
 
 
